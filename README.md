@@ -2,7 +2,7 @@
 
 # Speech Command Recognition Demo for Oracle OpenWorld 2018
 
-In this simple demo, we will use a convolutional neural network (CNN) to classify speech commands. We will show how one can use the Data Science Platform to deploy the model as a REST API endpoint. 
+In this simple demo, we will use a convolutional neural network (CNN) to classify speech commands. We will show how one can use the Oracle Data Science Cloud Service to deploy the model as a REST API endpoint. 
 
 ## Overview 
 
