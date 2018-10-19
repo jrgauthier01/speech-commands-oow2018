@@ -2,7 +2,7 @@
 
 # Speech Command Recognition Demo for Oracle OpenWorld 2018
 
-In this simple demo, we will use a convolutional neural network (CNN) to classify speech commands. We will show how one can use the **Oracle Data Science Cloud Service** to deploy the model as a REST API endpoint. 
+In this simple demo, we will use a convolutional neural network (CNN) to classify speech commands. We will show how one can use the **Oracle Data Science Platform** to deploy the model as a REST API endpoint. 
 
 ## Overview 
 
@@ -12,7 +12,7 @@ The demo is in three parts:
 
 * In the second part, we train the CNN model using Keras. This is done in notebook `notebooks/2-cnn-model-with-keras.ipynb`
 
-* In the last part, you test the model API endpoint you deployed on the Oracle Data Science Cloud Service with pre-recorded audio clips. The Instructions are stored in `notebooks/3-testing-model-deployment.ipynb`. I also included instructions on how you can test the endpoint with your own audio clips using the `pyaudio` python library. This third notebook is intended to be run on your laptop. 
+* In the last part, you test the model API endpoint you deployed on the Oracle Data Science Platform with pre-recorded audio clips. The Instructions are stored in `notebooks/3-testing-model-deployment.ipynb`. I also included instructions on how you can test the endpoint with your own audio clips using the `pyaudio` python library. This third notebook is intended to be run on your laptop. If you do not have access to the Oracle Data Science Platform, this last step should be skipped. 
 
 
 ## Dataset 
@@ -25,7 +25,7 @@ Alternatively, you can use the pre-processed and transformed dataset we use in `
 
 ## Installation Instructions 
 
-These notebooks were intended to be run on the Oracle Data Science Cloud Service. You can stil run notebooks 1 and 2 locally on your machine. Simply `pip` install the dependencies 
+These notebooks were intended to be run on the Oracle Data Science Platform. You can stil run notebooks 1 and 2 locally on your machine. Simply `pip` install the dependencies 
 listed in `requirements-pip.txt` : 
 
 ```
