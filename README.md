@@ -8,7 +8,7 @@ In this simple demo, we will use a convolutional neural network (CNN) to classif
 
 The demo is in three parts:
 
-* In the first part, we explore audio data and the necessary data transformations we need to apply to the data before training the neural network. Refer to the Jupyter notebook : `notebooks/1-intro-to-audio-data.ipynb` 
+* In the first part, we explore audio data and the necessary data transformations we need to apply to the data before training the neural network. Refer to the Jupyter notebook : `notebooks/1-intro-to-audio-data.ipynb` . **This notebook is optional. If you are already familiar with signal processing, you may skip the first notebook** 
 
 * In the second part, we train the CNN model using Keras. This is done in notebook `notebooks/2-cnn-model-with-keras.ipynb`
 
@@ -17,13 +17,15 @@ The demo is in three parts:
 
 ## Dataset 
 
-Throughout this demo, we use the [Speech Commands Dataset (Warden 2018)](https://arxiv.org/abs/1804.03209). You have two options to dowload the dataset for this demo: 
+Throughout this demo, we use the [Speech Commands Dataset (Warden 2018)](https://arxiv.org/abs/1804.03209). You have two options to dowload the raw dataset for this demo: 
 * from Oracle Cloud Object Storage by using the shell script `notebooks/get-data-from-oci.sh` 
 * from its original location [http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz](http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz) 
 
+Alternatively, you can use the pre-processed and transformed dataset we use in `notebooks/2-cnn-model-with-keras.ipynb` to train the model. This dataset has been serialized and can be found in this repo (`data/processed_data.pkl`). Instructions on how to load the data can be found in `notebooks/2-cnn-model-with-keras.ipynb`. 
+
 ## Installation Instructions 
 
-This demo was designed to be run on the Oracle Data Science Cloud Service. You can stil run notebooks 1 and 2 locally on your machine. Simply `pip` install the dependencies 
+These notebooks were intended to be run on the Oracle Data Science Cloud Service. You can stil run notebooks 1 and 2 locally on your machine. Simply `pip` install the dependencies 
 listed in `requirements-pip.txt` : 
 
 ```
